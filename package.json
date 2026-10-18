@@ -5,8 +5,7 @@
   "description": "Contracts provider-distinct inference workers to generate bounded executable strategy programs and falsification tests from an exact evidence context.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/red-cup-engineering/computer-web-engineering-services-section.git",
-    "directory": "services/web-platform-services-section/services/web2-platform-services-section/services/web2-financial-platform-services-section/services/web2-financial-brokerage-platform-services-section/services/alpaca-services-section/services/strategy-program-synthesis-work-lot-service"
+    "url": "git+https://github.com/red-cup-engineering/strategy-program-synthesis-work-lot-service.git"
   },
   "exports": {
     ".": "./src/synthesis.mjs",
