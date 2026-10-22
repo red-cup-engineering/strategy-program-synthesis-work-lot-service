@@ -36,5 +36,10 @@
     "check": "node --check src/synthesis.mjs && node --check src/inference-market-runtime.mjs && node --check src/strategy-program-candidate-assay.mjs",
     "test": "node --test test/*.test.mjs"
   },
-  "private": false
+  "private": false,
+  "license": "MIT",
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/561-group/.github/blob/main/TIPS.md"
+  }
 }
