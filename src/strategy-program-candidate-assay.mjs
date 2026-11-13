@@ -1,5 +1,5 @@
-import { makeNiUri } from "@red-cup-engineering/uri-services-section/ni-uri";
-import { visitJsnodeSyntax } from "@red-cup-engineering/javascript-node-services-section/syntax";
+import { makeNiUri } from "@red-cup-engineering/uri-engineering-services-section/ni-uri";
+import { visitJsnodeSyntax } from "@red-cup-engineering/javascript-node-engineering-services-section/syntax";
 
 const FORBIDDEN_NODES = new Set(["AwaitExpression", "ImportExpression", "NewExpression", "TaggedTemplateExpression", "WithStatement", "YieldExpression"]);
 const FORBIDDEN_IDENTIFIERS = new Set([

@@ -1,6 +1,6 @@
 import { readFileSync } from "node:fs";
-import { createSchema, unfoldSchema } from "@red-cup-engineering/json-schema-services-section";
-import { validateSchemaInstance } from "@red-cup-engineering/json-schema-services-section/validate-schema-instance";
+import { createSchema, unfoldSchema } from "@red-cup-engineering/json-schema-engineering-services-section";
+import { validateSchemaInstance } from "@red-cup-engineering/json-schema-engineering-services-section/validate-schema-instance";
 
 const load = (name) => createSchema(JSON.parse(readFileSync(new URL(`../schemas/${name}`, import.meta.url), "utf8")));
 export const STRATEGY_PROGRAM_SYNTHESIS_REQUEST_CARRIER = load("strategy-program-synthesis-request.schema.json");
